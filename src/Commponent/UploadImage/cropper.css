@@ -1,0 +1,6 @@
+.crope_data {
+  overflow: hidden !important;
+  width: 100% !important;
+  height: 400px;
+  margin-top: 20px;
+}

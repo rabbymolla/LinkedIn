@@ -1,0 +1,46 @@
+.viewProfile_img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+.viewProfile_img img {
+  width: 100%;
+  object-fit: cover;
+}
+.view_content h1 {
+  font-family: var(--Nunito);
+  font-weight: var(--semiBold);
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--black_color);
+}
+.view_content p {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 18px;
+  color: var(--hover_color);
+}
+.log_out {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.log_out:hover {
+  text-decoration: underline;
+}
+.log_out p {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-size: 18px;
+  color: var(--black_color);
+  padding-left: 5px;
+}

@@ -1,0 +1,5 @@
+#rootlayout {
+  background-color: var(--white_color);
+  padding: 10px 0;
+  margin-bottom: 30px;
+}

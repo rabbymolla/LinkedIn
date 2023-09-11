@@ -1,0 +1,51 @@
+#name {
+  display: flex;
+  align-items: start;
+}
+.name_show {
+  width: 70%;
+}
+.name_show h1 {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--black_color);
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.name_show p {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-size: 20px;
+  line-height: 18px;
+  color: var(--black_color);
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.name_show span {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--hover_color);
+  text-transform: capitalize;
+  display: block;
+  padding-bottom: 15px;
+}
+.degree {
+  display: flex;
+  align-items: center;
+}
+.degree a {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--black_color);
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+.degree a:hover {
+  text-decoration: underline;
+  color: var(--main_color);
+}

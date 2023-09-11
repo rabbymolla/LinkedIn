@@ -1,0 +1,111 @@
+body {
+  background-color: var(--body_bg) !important;
+}
+.linke {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--main_color);
+  font-size: 30px;
+  padding-right: 5px;
+}
+.hading {
+  text-align: center;
+  margin-top: 50px;
+}
+.hading h1 {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--tittle_color);
+  font-size: 34px;
+}
+.input_field {
+  margin-bottom: 40px;
+  position: relative;
+}
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--error_color);
+  font-size: 14px;
+}
+.border_bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+.border_bottom p {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-style: italic;
+  color: var(--black_color);
+  font-size: 20px;
+}
+.border_bottom::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 45%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.border_bottom::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 45%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.google {
+  font-size: 34px;
+  padding-right: 10px;
+}
+.google_text {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  color: var(--black_color);
+  font-size: 16px;
+}
+.already_tittle {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  color: var(--black_color);
+  font-size: 18px;
+}
+.signIn {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--tittle_color);
+  font-size: 18px;
+  margin-left: 5px;
+}
+.signIn:hover {
+  text-decoration: underline;
+}
+/* #recaptcha-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+} */

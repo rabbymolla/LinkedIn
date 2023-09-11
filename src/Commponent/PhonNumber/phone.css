@@ -1,0 +1,28 @@
+.PhoneInput {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+}
+.PhoneInputInput {
+  flex: 1;
+  padding: 10px !important;
+  min-width: 0;
+  border: 1px solid var(--black_color) !important;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+#recaptcha-container {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+.input_field h1 {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  font-size: 20px;
+  color: var(--black_color);
+}

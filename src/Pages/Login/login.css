@@ -1,0 +1,29 @@
+.sign_hadding {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--tittle_color);
+  font-size: 40px;
+  padding: 15px 0;
+}
+.signTittle {
+  font-family: var(--Nunito);
+  font-weight: var(--normal);
+  color: var(--tittle_color);
+  font-size: 20px;
+}
+.forget a {
+  font-family: var(--Nunito);
+  font-weight: var(--semiBold);
+  color: var(--main_color);
+  font-size: 20px;
+  padding: 4px 8px;
+}
+.forget a:hover {
+  text-decoration: underline;
+  background-color: rgba(8, 112, 164, 0.3);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

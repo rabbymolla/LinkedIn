@@ -1,0 +1,14 @@
+.choose_text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.choose_text h1 {
+  font-family: var(--Nunito);
+  font-weight: var(--bold);
+  color: var(--main_color);
+  font-size: 24px;
+}
+.img-preview {
+  width: 100%;
+  z-index: 99;
+}
